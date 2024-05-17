@@ -13,7 +13,7 @@ public class MainManager : MonoBehaviour
     {
         if (Instance != null)
         {
-            Destroy(gameObject);
+            Destroy(gameObject);    
             return;
         }
 
@@ -55,4 +55,5 @@ public class MainManager : MonoBehaviour
             TeamColor = data.TeamColor;
         }
     }
+
 }
